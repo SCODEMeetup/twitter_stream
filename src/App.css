@@ -1,0 +1,89 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+.twitter-timeline {
+    display: none !important;
+    height: 0 !important;
+}
+
+[data-react-toolbox="card"] {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    padding: 2px;
+    font-size: 12px;
+}
+
+.app-bar {
+    width: 100%;
+    height: 50px;
+    background-color: #282c34;
+    color: white;
+    display: flex;
+    padding-left: 6px;
+    flex-direction: 'column';
+    justify-content: space-between;
+    padding-right: 6px;
+}
+
+[data-react-toolbox="checkbox"] {
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.slide {
+    font-size: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+.table-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+}
+
+.media {
+    display: flex !important;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
